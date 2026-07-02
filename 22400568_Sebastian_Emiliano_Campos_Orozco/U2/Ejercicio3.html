@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Ejercicio 3</title>
+  </head>
+  <body>
+    <h1>Travel world</h1>
+    <p>
+      <strong> La mejor agencia de viajes </strong> para conocer los destinos
+      mas increibles de México y el mundo.
+    </p>
+    <hr />
+    <h2 id="ini">Menú</h2>
+    <a href="#bi">Inicio</a> | <a href="#de">Destino</a> |
+    <a href="#pr">Promociones</a> | <a href="#pa">Paquetes</a> |
+    <a href="#in">Contacto</a> |
+    <hr />
+    <h2 id="bi">Bienvenido</h2>
+    <p>
+      En <strong>Travel world</strong> ofrecemos paquetes turísticos para toda
+      la familia. Nuestro objetivo es brindar las mejores experiencias de viaje
+      con <em>excelente servicio y precios accesibles.</em>
+    </p>
+    <img
+      height="415"
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRV2p5qZqgZmNjYA-77pythfvaKJRIMDfxGdFIS3wkwCg&s=10"
+    />
+    <hr />
+    <h2 id="de">Destinos populares</h2>
+    <h3>Playas</h3>
+    <ul>
+      <li>Cancún</li>
+      <li>Puerto vallarta</li>
+      <li>Los cabos</li>
+      <li>Riviera maya</li>
+    </ul>
+    <h3>Pueblos Mágicos</h3>
+    <ol>
+      <li>Tequila</li>
+      <li>Mazamitlan</li>
+      <li>Real de Catorce</li>
+      <li>Taxco</li>
+    </ol>
+    <hr />
+    <h2 id="pr">Promociones</h2>
+    <p>
+      Reservar durante este mes y obtén un <strong>20% de descuento</strong> en
+      paquetes seleccionados.
+    </p>
+    <p>
+      Los primeros 50 clientes recibirán un <em>tour gratuido</em> en su destino
+    </p>
+    <hr />
+    <h2 id="pa">Paquetes disponibles</h2>
+    <table border="1">
+      <tr>
+        <th>Destinos</th>
+        <th>Días</th>
+        <th>Hotel</th>
+        <th>Precio</th>
+      </tr>
+      <tr>
+        <td>Cancún</td>
+        <td>5</td>
+        <td>5 estrellas</td>
+        <td>$12,500</td>
+      </tr>
+      <tr>
+        <td>Puerto vallarta</td>
+        <td>4</td>
+        <td>4 estrellas</td>
+        <td>$9,800</td>
+      </tr>
+      <tr>
+        <td>los Cabos</td>
+        <td>6</td>
+        <td>5 estrellas</td>
+        <td>$15,300</td>
+      </tr>
+      <tr>
+        <td>Mazamitlan</td>
+        <td>3</td>
+        <td>Cabaña</td>
+        <td>$5,900</td>
+      </tr>
+      <tr>
+        <td>Riviera Maya</td>
+        <td>7</td>
+        <td>Todo incluido</td>
+        <td>$18,900</td>
+      </tr>
+    </table>
+    <hr />
+    <h2>¿Por qué viajar con nosotros?</h2>
+    <ul>
+      <li>Hoteles certificados</li>
+      <li>Guias turisticos</li>
+      <li>Seguro de viajero</li>
+      <li>Atencion 24/7</li>
+      <li>Facilidades de pago</li>
+    </ul>
+    <hr />
+    <h2>Formulario de Reservación</h2>
+    <form action="">
+      <fieldset>
+        <legend>Solicitu de reservacion</legend>
+        <table border="1">
+          <th colspan="4">Datos del cliente</th>
+          <tr>
+            <th><label>Nombre</label></th>
+            <td><input type="text" /></td>
+            <th><label>Correo</label></th>
+            <td><input type="email" /></td>
+          </tr>
+          <tr>
+            <th><label>Contraseña</label></th>
+            <td><input type="password" /></td>
+            <th><label>Edad</label></th>
+            <td><input type="number" /></td>
+          </tr>
+          <tr>
+            <th><label>Fecha de viaje</label></th>
+            <td><input type="date" /></td>
+            <th><label>Hora de salida</label></th>
+            <td><input type="time" /></td>
+          </tr>
+          <tr>
+            <th><label>Numero de viajeros</label></th>
+            <td><input type="number" /></td>
+            <th><label>presupuesto</label></th>
+            <td><input type="range" /></td>
+          </tr>
+          <tr>
+            <th><label>Color de pulsera</label></th>
+            <td><input type="color" /></td>
+            <th><label>Identidicación</label></th>
+            <td><input type="file" /></td>
+          </tr>
+          <th colspan="4">Servicios</th>
+          <tr>
+            <td colspan="4">
+              <input type="checkbox" /> <label>Checkbox</label><br />
+              <input type="checkbox" /> <label>Hotel</label><br />
+              <input type="checkbox" /> <label>Desayuno</label><br />
+              <input type="checkbox" /> <label>Seguro de viaje</label>
+            </td>
+          </tr>
+          <th colspan="4">Tipo de Habitación</th>
+          <tr>
+            <td colspan="4">
+              <input type="radio" /><label>Individual</label>
+              <input type="radio" /><label>Doble</label>
+              <input type="radio" /><label>Familiar</label>
+            </td>
+          </tr>
+          <tr>
+            <td>Destino</td>
+            <td>
+              <select>
+                <option>Cancun</option>
+                <option>Riviera Maya</option>
+                <option>los lobos</option>
+              </select>
+            </td>
+            <td>Forma de pago</td>
+            <td>
+              <select>
+                <option>Tarjeta</option>
+                <option>Efectivo</option>
+              </select>
+            </td>
+          </tr>
+
+          <tr>
+            <td>Comentarios</td>
+            <td colspan="3"><textarea rows="5" cols="90"></textarea></td>
+          </tr>
+          <tr>
+            <th colspan="2"><input type="submit" value="Reservar" /></th>
+            <th colspan="2"><input type="submit" value="Limpiar" /></th>
+          </tr>
+        </table>
+      </fieldset>
+    </form>
+    <h2 id="in">Informacion de Contacto</h2>
+    <p>Direccion: Av.principal # 100,Tepic,Nayarit</p>
+    <p>Telefono: (311) 123-24567</p>
+    <p>Correo: Contacto@Travelwolrd.com</p>
+    <h3>Enlaces de interes</h3>
+    <a href="#de">Buscar mas destinos</a><br />
+    <a href="#ini">volver al inicio</a><br />
+    <a href="#pa">Ver paquetes</a>
+  </body>
+</html>
