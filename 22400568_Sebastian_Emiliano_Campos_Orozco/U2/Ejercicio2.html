@@ -4,23 +4,103 @@
     <meta charset="UTF-8" />
     <title>Ejercicio 2</title>
   </head>
+  <style>
+    body {
+      background-color: black;
+      color: white;
+    }
+    .titulo {
+      text-align: center;
+      background-color: red;
+    }
+    p {
+      text-align: center;
+      padding-left: 30%;
+      padding-right: 30%;
+    }
+
+    img {
+      display: block;
+      margin: auto;
+    }
+    li {
+      list-style-type: none;
+    }
+    
+    ol {
+      list-style-type: none;
+      padding:0;
+      display: flex;
+      justify-content:center;
+      
+    }
+    .li-m{
+      padding: 10px;
+      background-color: red;
+      border-radius: 20px;
+
+      margin: 10px;
+
+    }
+    li:hover{
+      text-decoration: underline;
+      color:white;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    a {
+      text-decoration: none;
+      text-align: center;
+      color: wheat;
+      display: block;
+      margin: auto;
+      padding-top: 2px;
+    }
+    hr {
+      background-color: red;
+      height: 2px;
+      border: none;
+    }
+
+    table {
+      width: 50%;
+      border-collapse: collapse;
+      text-align: center;
+      margin: auto;
+    }
+    th {
+      background-color: red;
+      color: aliceblue;
+      padding: 10px;
+    }
+    td {
+      padding: 10px;
+    }
+  </style>
+
   <body>
-    <h1>IMAGINE DRAGONS</h1>
+    <h1 class="titulo">IMAGINE DRAGONS</h1>
+
     <p>
       Imagine Dragons es una banda estadounidense de pop originaria de Las
       Vegas, Nevada. Está compuesta por Dan Reynolds, Wayne Sermon y Ben McKee.
       Ganó el reconocimiento mundial con el lanzamiento de su álbum de estudio
       debut «Night Visions», y con su canción «It's Time».
     </p>
+
     <h3>Índice</h3>
+    <hr />
     <ol>
-      <li><a href="#imagen">Fotografia del grupo</a></li>
-      <li><a href="#Integrantes">Integrantes</a></li>
-      <li><a href="#disco">Discografia</a></li>
-      <li><a href="#url">Enlances</a></li>
+      <li class="li-m"><a href="#imagen">Fotografia del grupo</a></li>
+      <li class="li-m"><a href="#Integrantes">Integrantes</a></li>
+      <li class="li-m"><a href="#disco">Discografia</a></li>
+      <li class="li-m"><a href="#url">Enlances</a></li>
     </ol>
 
     <h3>Fotografia del grupo</h3>
+    <hr />
     <img
       id="imagen"
       src="https://www.coca-cola.com/content/dam/onexp/global/central/offerings/coke-studio/artists/2_Imagine_Dragons_by_Eric_Ray_Davidson_GREEN_04_1-1.jpg"
@@ -28,6 +108,7 @@
     />
 
     <h3 id="Integrantes">Integrantes</h3>
+    <hr />
     <table border="1">
       <tr>
         <th>Nombre</th>
@@ -51,6 +132,7 @@
       </tr>
     </table>
     <h3 id="disco">Discografica</h3>
+    <hr />
     <table border="1">
       <tr>
         <th>Titulo</th>
@@ -86,6 +168,7 @@
       </tr>
     </table>
     <h3 id="url">Enlaces</h3>
+    <hr />
     <ul>
       <li>
         <a

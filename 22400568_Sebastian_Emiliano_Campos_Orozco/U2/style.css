@@ -1,0 +1,66 @@
+body{
+  background-color:aliceblue;
+}
+.titulo {
+  text-align: center;
+
+}
+
+p {
+  text-align: center;
+  padding-left: 30%;
+  padding-right: 30%;
+}
+
+img {
+  display: block;
+  margin: auto;
+}
+
+
+a {
+  color: aliceblue;
+  text-decoration: none;
+  padding: 10px;
+  background-color: crimson;
+  margin: 20px;
+
+}
+
+hr {
+  background-color: black;
+  height: 2px;
+  border: none;
+  margin-top: 10px;
+}
+
+table {
+  width: 50%;
+  border-collapse: collapse;
+  text-align: center;
+  margin: auto;
+}
+
+th {
+  background-color: crimson;
+  color: aliceblue;
+  padding: 10px;
+}
+
+td {
+  padding: 10px;
+}
+
+fieldset {
+  border-radius: 10px;
+  margin-left: 25%;
+  margin-right: 25%;
+  border-color: crimson;
+
+}
+a.am{
+
+
+  padding: 10px !important;
+  margin: 20px !important;
+}
