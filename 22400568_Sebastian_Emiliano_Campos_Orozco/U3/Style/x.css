@@ -75,7 +75,9 @@ fieldset {
 }
 
 h3 {
-    margin: 10px 10px;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 5px 0 10px 0;
 }
 
 .B {
