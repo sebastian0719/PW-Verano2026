@@ -20,7 +20,6 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     height: 500px;
-
 }
 
 .btn_init {
@@ -45,8 +44,6 @@ input {
     width: 300px;
     height: 35px;
     background-color: #333;
-
-
 }
 
 .bc {
@@ -55,7 +52,6 @@ input {
     height: 35px;
     margin: -5px;
     background-color: aqua;
-
 }
 
 .di {
@@ -78,10 +74,489 @@ body main section {
 a {
     color: white;
     font-weight: bold;
-
 }
-
 
 body main section section {
     margin: 100px 50px;
+}
+
+.s2 {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.ps1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.ps2 {
+    font-size: 20px;
+    color: #cccccc;
+    margin-bottom: 30px;
+}
+
+.centrado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-imagen {
+    position: relative;
+    display: inline-block;
+}
+
+.star {
+    width: 80%;
+    max-width: 800px;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+}
+
+.tsm {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    padding: 8px 20px;
+    border-radius: 20px;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+.s3 {
+    padding: 40px 20px;
+    background-color: #16213e;
+}
+
+.ns3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.ns3 li {
+    flex: 0 0 calc(14.28% - 20px);
+    min-width: 120px;
+    text-align: center;
+}
+
+.ns3 li img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.ns3 li img:hover {
+    transform: scale(1.05);
+}
+
+.pp {
+    color: white;
+    font-size: 14px;
+    margin-top: 8px;
+    text-align: center;
+}
+
+.s4 {
+    padding: 60px 20px;
+    background-color: #16213e;
+}
+
+.titulo-planes {
+    color: white;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.subtitulo-planes {
+    color: #cccccc;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.tabla-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow-x: auto;
+}
+
+.tabla-planes {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #16213e;
+    color: white;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.tabla-planes th {
+    padding: 20px 15px;
+    text-align: center;
+    font-size: 18px;
+    background-color: #16213e;
+}
+
+.tabla-planes td {
+    padding: 15px 20px;
+    text-align: center;
+    border-bottom: 1px solid #2a2a4a;
+}
+
+.tabla-planes th:first-child {
+    background-color: #16213e;
+}
+
+.tabla-planes td:first-child {
+    background-color: #16213e;
+    text-align: left;
+    font-size: 14px;
+    color: #cccccc;
+}
+
+.descripcion {
+    font-size: 13px;
+    line-height: 1.4;
+    max-width: 250px;
+}
+
+.numero {
+    font-size: 24px;
+    font-weight: bold;
+    color: #4fc3f7;
+}
+
+.tabla-planes td span {
+    display: block;
+}
+
+.tabla-planes td span:last-child {
+    font-size: 12px;
+    color: #888;
+}
+
+.tabla-planes tr:last-child td {
+    border-bottom: none;
+}
+
+.s5 {
+    padding: 60px 20px;
+    background-color: #16213e;
+}
+
+.titulo-deportes {
+    color: white;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.subtitulo-deportes {
+    color: #cccccc;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.deportes-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.deporte-item {
+    flex: 0 0 calc(16.66% - 20px);
+    min-width: 140px;
+    background-color: #1a1a2e;
+    border-radius: 12px;
+    padding: 20px 10px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.deporte-item:hover {
+    transform: translateY(-5px);
+}
+
+.deporte-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.deporte-img {
+    width: 100%;
+    max-width: 120px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.s6 {
+    text-align: center;
+    padding: 40px 20px 60px;
+    background-color: #16213e;
+}
+
+.s6 p:first-child {
+    font-weight: bold;
+    font-size: 30px;
+    padding: 20px;
+    color: white;
+}
+
+.s6 p:last-of-type {
+    color: #cccccc;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.s6 img {
+    height: 400px;
+    width: auto;
+    border-radius: 12px;
+}
+
+footer {
+    background-color: #0b1b33;
+    color: #e8edf5;
+    padding: 1.5rem 2rem;
+    border-top: 3px solid #f9c920;
+    width: 100%;
+}
+
+footer hr {
+    display: none;
+}
+
+footer p {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem 1.5rem;
+    font-size: 0.85rem;
+    color: #e8edf5;
+}
+
+footer p::before {
+    content: "✦";
+    font-weight: 600;
+    background: linear-gradient(135deg, #f9c920, #f5a623);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 0.95rem;
+}
+
+@media (min-width: 900px) {
+    main {
+        flex-direction: row;
+        gap: 80px;
+        justify-content: space-between;
+    }
+
+    .info {
+        text-align: left;
+        flex: 1;
+    }
+
+    .info h1 {
+        font-size: 3.5rem;
+    }
+
+    .info p {
+        font-size: 1.4rem;
+        margin: 0;
+        max-width: 500px;
+    }
+
+    form {
+        flex: 0 0 400px;
+    }
+}
+
+@media (max-width: 768px) {
+    .ns3 li {
+        flex: 0 0 calc(33.33% - 20px);
+    }
+
+    .deporte-item {
+        flex: 0 0 calc(33.33% - 20px);
+    }
+
+    .tabla-planes {
+        font-size: 14px;
+    }
+
+    .tabla-planes th,
+    .tabla-planes td {
+        padding: 12px 10px;
+    }
+
+    .tsm {
+        font-size: 12px;
+        padding: 5px 15px;
+        bottom: 15px;
+    }
+
+    .s6 img {
+        height: 250px;
+    }
+
+    footer p {
+        font-size: 0.75rem;
+        flex-direction: column;
+        gap: 0.5rem;
+        text-align: center;
+    }
+}
+
+@media (max-width: 500px) {
+    .info h1 {
+        font-size: 2.2rem;
+    }
+
+    .info p {
+        font-size: 1rem;
+    }
+
+    form {
+        padding: 15px;
+    }
+
+    .ps {
+        font-size: 20px;
+    }
+
+    input {
+        width: 200px;
+    }
+
+    .bc {
+        width: 120px;
+        font-size: 10px;
+    }
+
+    .ic {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .ns3 li {
+        flex: 0 0 calc(50% - 20px);
+    }
+
+    .deporte-item {
+        flex: 0 0 calc(50% - 20px);
+    }
+
+    .tabla-planes {
+        font-size: 12px;
+    }
+
+    .tabla-planes th,
+    .tabla-planes td {
+        padding: 8px 6px;
+    }
+
+    .descripcion {
+        font-size: 11px;
+    }
+
+    .numero {
+        font-size: 18px;
+    }
+
+    .s6 img {
+        height: 180px;
+    }
+
+    .ps1 {
+        font-size: 28px;
+    }
+
+    .ps2 {
+        font-size: 16px;
+    }
+
+    .titulo-planes,
+    .titulo-deportes {
+        font-size: 24px;
+    }
+
+    .subtitulo-planes,
+    .subtitulo-deportes {
+        font-size: 14px;
+    }
+
+    .tsm {
+        font-size: 10px;
+        padding: 4px 10px;
+        bottom: 10px;
+    }
+
+    .star {
+        width: 100%;
+    }
+
+    footer {
+        padding: 1rem;
+    }
+
+    footer p {
+        font-size: 0.7rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .ns3 li {
+        flex: 0 0 100%;
+    }
+
+    .deporte-item {
+        flex: 0 0 100%;
+        max-width: 200px;
+    }
+
+    input {
+        width: 160px;
+        height: 30px;
+    }
+
+    .bc {
+        width: 100px;
+        height: 30px;
+        font-size: 9px;
+        margin: 5px 0;
+    }
+
+    .di {
+        width: 100px;
+    }
+
+    .ps {
+        font-size: 16px;
+    }
+
+    .btn_init {
+        padding: 6px 20px;
+        font-size: 10px;
+    }
 }

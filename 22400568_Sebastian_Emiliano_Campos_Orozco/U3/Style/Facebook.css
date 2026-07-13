@@ -1,135 +1,133 @@
-body{
-    background-color: #eef3fb;
+body {
+  background-color: #eef3fb;
 }
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 10%;
-    
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10%;
 }
 
-p, h1 {
-    font-family: Arial, Helvetica, sans-serif;
+p,
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
-    color: #272AF5;
+  color: #272af5;
 }
 
 .plh {
-    font-size: 50px;
+  font-size: 50px;
 }
 
-
-
-a:hover{
-    text-decoration: underline;
-    color: blue;
+a:hover {
+  text-decoration: underline;
+  color: blue;
 }
 
 .plp {
-    text-align: left;
-    padding-right: 200px;
+  text-align: left;
+  padding-right: 200px;
 }
 
 form {
-    background-color: white;
-    border-radius: 10px;
-    width: 400px;
-    height: 350px;
+  background-color: white;
+  border-radius: 10px;
+  width: 400px;
+  height: 350px;
 }
 
 hr {
-    border: 1px solid gray;  
-    width: 100%;             
-    opacity: 50%;
+  border: 1px solid gray;
+  width: 100%;
+  opacity: 50%;
 }
 
 fieldset {
-    border: none;
-    padding: 15px;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    text-align: center;
+  border: none;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  text-align: center;
 }
 
 .crear {
-    border-radius: 5px;
-    background-color: #42b72a;
-    border: none;
-    height: 40px;
-    width: 150px;
-    color: white;
-    margin: 0 auto;
-    font-weight: bold;
-    cursor: pointer;
+  border-radius: 5px;
+  background-color: #42b72a;
+  border: none;
+  height: 40px;
+  width: 150px;
+  color: white;
+  margin: 0 auto;
+  font-weight: bold;
+  cursor: pointer;
 }
 
 .crear:hover {
-    background-color: #36a420;
+  background-color: #36a420;
 }
 
 .olvidaste {
-    color: #272AF5;
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
-    font-size: 13px;
+  color: #272af5;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  font-size: 13px;
 }
 
 .init {
-    background-color: #272AF5;
-    color: white;
-    border: none;
-    height: 40px;
-    border-radius: 5px;
-    font-weight: bold;
-    font-size: 14px;
-    cursor: pointer;
+  background-color: #272af5;
+  color: white;
+  border: none;
+  height: 40px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
 }
 
 .init:hover {
-    background-color: #1f22b5;
+  background-color: #1f22b5;
 }
 
 .set {
-    height: 40px;
-    border-radius: 5px;
-    border: 1px solid gray;
-    box-shadow: 1px 1px 1px gray;
-    padding-left: 10px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  box-shadow: 1px 1px 1px gray;
+  padding-left: 10px;
 }
 
 .fi {
-    font-size: 13px;
-    text-align: center;
-    margin-top: 20px;
+  font-size: 13px;
+  text-align: center;
+  margin-top: 20px;
 }
-
 
 @media (min-width: 1100px) {
-    body {
-        background-color: #eef3fb;
-    }
-    
-    main {
-        margin: 10%; 
-        gap: 100px; 
-    }
-    
-    .plh {
-        font-size: 60px; 
-    }
-    
-    .plp {
-        padding-right: 100px;
-        font-size: 18px;
-    }
+  body {
+    background-color: #eef3fb;
+  }
+
+  main {
+    margin: 10%;
+    gap: 100px;
+  }
+
+  .plh {
+    font-size: 60px;
+  }
+
+  .plp {
+    padding-right: 100px;
+    font-size: 18px;
+  }
 }
+
