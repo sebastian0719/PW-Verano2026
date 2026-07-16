@@ -12,8 +12,8 @@ if (n1 == n2) {
   console.log(" numeros iguales ");
 } else if (n1 > n2) {
   console.log("el numero mayor es " + n1);
-} else console.log("el numero mayor es " + n2);
-
+} else {console.log("el numero mayor es " + n2);
+}
 /* 2. */
 
 let numero;
@@ -53,6 +53,8 @@ for (let i = 0; i < 10; i++) {
 }
 
 /* 5. */ 
+
+let venta;
 let empleados = prompt("ingresa un numero de empleados ");
 for(let i = 0; i < empleados; i++){
     venta = prompt("Empleado: "+(i+1)+" Cuanto vendio: ");   
@@ -60,7 +62,7 @@ for(let i = 0; i < empleados; i++){
     console.log("no puedes ingresar numeros menores a 5000 ni mayores a 30000");
     i--;
   }
-  if (venta > 5000 && venta < 30000) {
+  if (venta >= 5000 && venta <= 30000) {
     if (venta < 10000) {
       console.log("Empleado: "+ (i+1)+ " comisión: "+(venta*.10));
     } else if (venta >= 10000) {
