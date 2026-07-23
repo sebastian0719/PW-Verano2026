@@ -47,16 +47,16 @@ for (let i = 0; i < 1; i++) {
 /*
 let d1;
 let d2;
-let lanzamiento;
+let lanzamiento = 0;
 do {
     d1 = Math.floor(Math.random() * 6)+1;
     d2 = Math.floor(Math.random() * 6)+1;
     console.log("dado 1: "+ d1);
     console.log("dado 2: " + d2);
-    lanzamiento ++
+    lanzamiento++;
 } while (d1 != d2)
 
-console.log("dado 1 y dado 2 coincidieron en: " +d1+ " numero de lanzamienos: "+ lanzamiento )
+console.log("dado 1 y dado 2 coincidieron en: " +d1+ ", numero de lanzamienos: "+ lanzamiento )
 */
 
 /*
@@ -79,6 +79,7 @@ for (let i = 1; i <= 7; i++) {
     }
 }
 */
+/*
 const ventas = [];
 let continuar = true;
 
@@ -152,7 +153,7 @@ for (let vendedor in vendedores) {
 
 console.log("\nVendedor con más ventas: " + mejorVendedor + " ($" + mayorMonto.toFixed(2) + ")");
 
-
+*/
 
 
 
