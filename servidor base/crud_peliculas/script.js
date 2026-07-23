@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:3000/peliculas";
+const API_URL = "https://pw-verano2026-beta.vercel.app/";
 
 const formulario = document.getElementById("formulario");
 const id = document.getElementById("id");
